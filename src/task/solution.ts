@@ -1,3 +1,4 @@
+// @ts-ignore
 const getValueByPath = <T,>(
   obj: object,
   path: string,
@@ -7,8 +8,8 @@ const getValueByPath = <T,>(
   let value = obj;
 
   for (let i = 0; i < pathItems.length; i++) {
-    if (!value?.[pathItems[i]]) return defaultValue;
-    value = value[pathItems[i]];
+    if (!value?.[pathItems[i] as keyof typeof value]) return defaultValue;
+    value = value[pathItems[i] as keyof typeof value];
   }
 
   return value;
