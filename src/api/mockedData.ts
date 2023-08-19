@@ -1,6 +1,6 @@
 import { IInvitation, ITeamMember } from '../types/mainTypes';
 
-export const adminUsers: ITeamMember[] = [
+export const users: ITeamMember[] = [
   {
     id: 0,
     status: 'request',
@@ -25,22 +25,6 @@ export const adminUsers: ITeamMember[] = [
     },
     role: 'Administrator',
   },
-];
-
-export const adminInvitations: IInvitation[] = [
-  {
-    id: 0,
-    phone: '+48 000 000 000',
-    role: 'Administrator',
-  },
-  {
-    id: 1,
-    phone: '+48 111 111 111',
-    role: 'Administrator',
-  },
-];
-
-export const standardUsers: ITeamMember[] = [
   {
     id: 2,
     status: 'declined',
@@ -67,7 +51,17 @@ export const standardUsers: ITeamMember[] = [
   },
 ];
 
-export const standardInvitations: IInvitation[] = [
+export const invitations: IInvitation[] = [
+  {
+    id: 0,
+    phone: '+48 000 000 000',
+    role: 'Administrator',
+  },
+  {
+    id: 1,
+    phone: '+48 111 111 111',
+    role: 'Administrator',
+  },
   {
     id: 2,
     phone: '+48 222 222 222',
