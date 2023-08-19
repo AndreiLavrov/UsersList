@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="083812d0-6082-4198-a301-7fa4f75afcd9" name="Default Changelist" comment="feature/ Add a solution for first task into &quot;src/task/solution.ts&quot;">
-      <change afterPath="$PROJECT_DIR$/src/api/mockedData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/invitation/Invitation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/invitation/Invitation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/mainTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/restructureData.ts" afterDir="false" />
+    <list default="true" id="083812d0-6082-4198-a301-7fa4f75afcd9" name="Default Changelist" comment="feature/ Add layout with mocked data for components">
+      <change afterPath="$PROJECT_DIR$/src/user/User.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/solution.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/mockedData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/mockedData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invitation/Invitation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/Invitation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invitation/Invitation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/Invitation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/user" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\testing-tasks\my-app\src\user" />
       <recent name="D:\testing-tasks\my-app\src\utils" />
       <recent name="D:\testing-tasks\my-app\src\api" />
       <recent name="D:\testing-tasks\my-app\src\task" />
@@ -56,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692377590193</updated>
-      <workItem from="1692377592827" duration="5553000" />
+      <workItem from="1692377592827" duration="9653000" />
+      <workItem from="1692431375378" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="feature/ Create new application with &quot;React Create App&quot;">
       <created>1692378141787</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692380128850</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature/ Add layout with mocked data for components">
+      <created>1692385569400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692385569400</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature/ Create new application with &quot;React Create App&quot;" />
@@ -130,6 +139,7 @@
     <MESSAGE value="feature/ Create react application template(using CRA)" />
     <MESSAGE value="feature/ Create react application template (using CRA)" />
     <MESSAGE value="feature/ Add a solution for first task into &quot;src/task/solution.ts&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/ Add a solution for first task into &quot;src/task/solution.ts&quot;" />
+    <MESSAGE value="feature/ Add layout with mocked data for components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/ Add layout with mocked data for components" />
   </component>
 </project>

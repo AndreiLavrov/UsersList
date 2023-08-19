@@ -6,48 +6,54 @@ import { Invitation } from './invitation/Invitation';
 
 function App() {
   return (
-    // TODO: for reviewers -- it ws strange as for me that we show users and invitations in the same list.
-    // I suppose, I understand this condition wrong
+    /* TODO: for reviewers -- it was strange as for me that we show users and invitations in the same list.
+         I suppose, I understand this condition wrong */
     <div className="App">
-      <h3>Administrator</h3>
-      <ul className='AdminsList'>
-        {adminUsers?.map(({ id, status, user, role }) => (
-          <User
-            id={id}
-            status={status}
-            user={user}
-            role={role}
-          />
-        ))}
+      <div className="Container">
+        <section className="ListSection">
+          <h3 className="SectionTitle">Administrator</h3>
+          <ul className='AdminsList'>
+            {adminUsers?.map(({ id, status, user, role }) => (
+              <User
+                id={id}
+                status={status}
+                user={user}
+                role={role}
+              />
+            ))}
 
-        {adminInvitations?.map(({ id, phone, role }) => (
-          <Invitation
-            id={id}
-            phone={phone}
-            role={role}
-          />
-        ))}
-      </ul>
+            {adminInvitations?.map(({ id, phone, role }) => (
+              <Invitation
+                id={id}
+                phone={phone}
+                role={role}
+              />
+            ))}
+          </ul>
+        </section>
 
-      <h3>Standart users</h3>
-      <ul className='AdminsList'>
-        {standardUsers?.map(({ id, status, user, role }) => (
-          <User
-            id={id}
-            status={status}
-            user={user}
-            role={role}
-          />
-        ))}
+        <section className="ListSection">
+          <h3 className="SectionTitle">Standard users</h3>
+          <ul className='StandardList'>
+            {standardUsers?.map(({ id, status, user, role }) => (
+              <User
+                id={id}
+                status={status}
+                user={user}
+                role={role}
+              />
+            ))}
 
-        {standardInvitations?.map(({ id, phone, role }) => (
-          <Invitation
-            id={id}
-            phone={phone}
-            role={role}
-          />
-        ))}
-      </ul>
+            {standardInvitations?.map(({ id, phone, role }) => (
+              <Invitation
+                id={id}
+                phone={phone}
+                role={role}
+              />
+            ))}
+          </ul>
+        </section>
+      </div>
     </div>
   );
 }

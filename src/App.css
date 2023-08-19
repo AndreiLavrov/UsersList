@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* I would use vars on real project */
+  background-color: #FAFAFD;
 }
 
 .App-logo {
@@ -35,4 +37,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.ListSection {
+  max-width: 450px;
+  min-width: 350px;
+}
+
+.SectionTitle {
+  color: #828B97;
+  margin-bottom: 5px;
+}
+
+.AdminsList,
+.StandardList {
+  list-style-type: none;
+  padding: 0;
+  background-color: #F8F8F9;
+  border-radius: 20px;
+  margin-top: 0;
+}
+
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.ItemStatus {
+  min-width: 90px;
+  padding: 6px;
+  background-color: #EEEFF2;
+  border-radius: 20px;
 }

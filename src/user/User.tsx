@@ -1,4 +1,5 @@
 import React from 'react';
+import './User.css';
 import { ITeamMember } from '../types/mainTypes';
 
 export const User = ({
@@ -9,11 +10,12 @@ export const User = ({
 }: ITeamMember ) => {
 
   return (
-    <li key={`user_${id}`} className="UserItem">
-      {/* TODO: could add condition for showing email or somthing like that(depends on data) */}
-      <span>{`${user?.name ?? ''} ${user?.lastName ?? ''}`}</span>
-      <span>{status}</span>
-      {/* TODO: is a string just for saving time for now */}
+    <li key={`user_${id}`} className="ListItem">
+      {/* could add condition for showing email or something like that(depends on data) */}
+      <span className="UserItemName">{`${user?.name ?? ''} ${user?.lastName ?? ''}`}</span>
+      {/* decided to show this states for User too for have similar structure for items */}
+      <span className="ItemStatus">{status}</span>
+      {/* it is a string just for saving developing time for now */}
       <span>{'>'}</span>
     </li>
   );

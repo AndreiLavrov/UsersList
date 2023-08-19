@@ -15,7 +15,7 @@ export const adminUsers: ITeamMember[] = [
   },
   {
     id: 1,
-    status: 'request',
+    status: 'pending',
     user: {
       id: 1,
       name: 'name1',
@@ -55,7 +55,7 @@ export const standardUsers: ITeamMember[] = [
   },
   {
     id: 3,
-    status: 'invited',
+    status: 'approved',
     user: {
       id: 3,
       name: 'name3',

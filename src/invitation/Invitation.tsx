@@ -1,4 +1,5 @@
 import React from 'react';
+import './Invitation.css';
 import { IInvitation } from '../types/mainTypes';
 
 export const Invitation = ({
@@ -8,9 +9,9 @@ export const Invitation = ({
 }: IInvitation ) => {
 
   return (
-    <li key={`invitation_${id}`} className="InvitationItem">
-      <span>{phone}</span>
-      <span>Invited</span>
+    <li key={`invitation_${id}`} className="ListItem">
+      <span className="InvitationItemName">{phone}</span>
+      <span className="ItemStatus">Invited</span>
       {/* TODO: is a string just for saving time for now */}
       <span>{'>'}</span>
     </li>
